@@ -5,9 +5,11 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
-		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<script defer src="assets/js/modal.js"></script>
 	</head>
 	<body class="is-preload">
+
+
 
 		<!-- Page Wrapper -->
 			<div id="page-wrapper">
@@ -51,28 +53,28 @@
 								<p>Highlights from each programming level</p>
 								<section class="features">
 									<article>
-										<a href="#" class="image"><img src="images/bootstrap_cover.jpeg" alt="" /></a>
+										<a data-modal-target="#catering" class="image"><img src="images/bootstrap_cover.jpeg" alt="" /></a>
 										<h3 class="major">Catering Company Website</h3>
 										<p>Constructed with food industry businesses in mind</p>
-										<a href="#" class="special">Learn more</a>
+										<a data-modal-target="#catering" class="special">Learn more</a>
 									</article>
 									<article>
-										<a href="#" class="image"><img src="images/blog_cover_2.jpg" alt="" /></a>
+										<a data-modal-target="#blog" class="image"><img src="images/blog_cover_2.jpg" alt="" /></a>
 										<h3 class="major">Hitchhiking Blog</h3>
 										<p>A reusable component based project for the avid traveler</p>
-										<a href="#" class="special">Learn more</a>
+										<a data-modal-target="#blog" class="special">Learn more</a>
 									</article>
 									<article>
-										<a href="#" class="image"><img src="images/platematelogo.jpg" alt="" /></a>
+										<a data-modal-target="#platemate" class="image"><img src="images/platematelogo.jpg" alt="" /></a>
 										<h3 class="major">PlateMate</h3>
 										<p>A mobile phone app with calorie calculations for weight management</p>
-										<a href="#" class="special">Learn more</a>
+										<a data-modal-target="#platemate" class="special">Learn more</a>
 									</article>
 									<article>
-										<a href="#" class="image"><img src="images/Node_cover.jpg" alt="" /></a>
+										<a data-modal-target="#node" class="image"><img src="images/Node_cover.jpg" alt="" /></a>
 										<h3 class="major">Back-end Project Generator</h3>
 										<p>To quickly update project information saved to a database</p>
-										<a href="#" class="special">Learn more</a>
+										<a data-modal-target="#node" class="special">Learn more</a>
 									</article>
 									
 								</section>
@@ -81,6 +83,39 @@
 								</ul>
 							</div>
 						</section>
+
+						<!-- Project Modals -->
+						
+						<div class="modal" id="catering">
+							<div class="modal-header">
+								<div class="title">Project Modal</div>
+								<div class="close-button" data-close-button>&times;</div>
+							</div>
+							<div class="modal-body">
+								Lorem ipsum dolor sit amet consectetur adipisicing
+								elit. Laudantium quod inventore sed
+								sapiente saepe rerum cupiditate. Optio ex
+								facilis numquam veritatis deleniti dolor labore
+								eum error, animi corrupti illum iste!
+							</div>
+						</div>
+
+						<div class="modal" id="blog">
+							<div class="modal-header">
+								<div class="title">Project Modal</div>
+								<div class="close-button" data-close-button>&times;</div>
+							</div>
+							<div class="modal-body">
+								Lorem ipsum dolor sit amet consectetur adipisicing
+								elit. Laudantium quod inventore sed
+								sapiente saepe rerum cupiditate. Optio ex
+								facilis numquam veritatis deleniti dolor labore
+								eum error, animi corrupti illum iste!
+							</div>
+						</div>
+
+
+
 
 						<!-- One -->
 							<section id="one" class="wrapper spotlight style2">
@@ -186,6 +221,9 @@
 
 						</div>
 					</section>
+					
+			<!-- Modal Overlay -->
+			<div id="overlay"></div>
 
 			</div>
 
