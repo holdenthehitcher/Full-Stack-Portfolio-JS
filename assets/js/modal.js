@@ -28,7 +28,7 @@ function openModal(modal) {
   if (modal == null) return;
   modal.classList.add('active');
   overlay.classList.add('active');
-  // document.body.style.top = `-${window.scrollY}px`;
+  document.body.style.overflow = 'hidden';
   wrapper.style.position = 'fixed';
 }
 
@@ -36,9 +36,10 @@ function closeModal(modal) {
   if (modal == null) return;
   modal.classList.remove('active');
   overlay.classList.remove('active');
-
+  document.body.style.overflow = '';
   const scrollY = wrapper.style.top;
   wrapper.style.position = '';
   wrapper.style.top = '';
   window.scrollTo(0, parseInt(scrollY || '0') * -1);
+  
 }
