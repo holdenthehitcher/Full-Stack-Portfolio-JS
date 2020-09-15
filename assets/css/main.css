@@ -4216,6 +4216,15 @@ background-color: rgba(255, 255, 255, 0.075);
   color: white;
 }
 
+
+.modal-body iframe {
+  align-self: center;
+  width: 100%;
+  height: 27rem;
+  
+}
+
+
 .image.main {
   display: block;
   margin: 2.5rem 0;
@@ -4239,6 +4248,7 @@ background-color: rgba(255, 255, 255, 0.075);
   .image.main {
     margin: 1.5rem 0;
   }
+
 
 }
 
