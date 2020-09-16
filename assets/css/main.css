@@ -122,6 +122,7 @@ section {
 
 body {
   line-height: 1;
+  font-family: 'Poppins', sans-serif;
 }
 
 ol,
@@ -360,6 +361,7 @@ i {
 
 p {
   margin: 0 0 2em 0;
+  font-family: 'Poppins', sans-serif;
 }
 
 h1,
@@ -369,9 +371,9 @@ h4,
 h5,
 h6 {
   color: #ffffff;
-  font-family: Raleway, Helvetica, sans-serif;
-  font-weight: 700;
-  letter-spacing: 0.1em;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.145em;
   margin: 0 0 1em 0;
   text-transform: uppercase;
 }
@@ -394,6 +396,7 @@ h4 span,
 h5 span,
 h6 span {
   font-weight: 200;
+  font-family: 'Poppins', sans-serif;
 }
 
 h1.major,
@@ -404,6 +407,12 @@ h5.major,
 h6.major {
   padding-bottom: 1em;
   border-bottom: solid 2px rgba(255, 255, 255, 0.125);
+  font-size: 1.1em;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1 {
+  font-size: 1.6em;
 }
 
 h2 {
@@ -2212,6 +2221,7 @@ article.special {
 /* Form */
 
 form {
+  font-family: 'Poppins', sans-serif;
   margin: 0 0 2em 0;
 }
 
@@ -3123,6 +3133,11 @@ button:disabled,
   width: calc(50% - 1.5em);
 }
 
+.features article p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1rem;
+}
+
 .features article:nth-child(2n) {
   margin-right: 0;
 }
@@ -3545,7 +3560,7 @@ body.is-menu-visible #menu .inner {
   width: 2.25em;
 }
 
-#banner h2 {
+#banner h1 {
   -moz-transition: opacity 0.5s ease, -moz-transform 0.5s ease, -moz-filter 0.25s ease;
   -webkit-transition: opacity 0.5s ease, -webkit-transform 0.5s ease, -webkit-filter 0.25s ease;
   -ms-transition: opacity 0.5s ease, -ms-transform 0.5s ease, -ms-filter 0.25s ease;
@@ -3938,6 +3953,10 @@ body.is-preload #banner p {
   -ms-flex: 2;
 }
 
+.content p {
+  font-size: 1rem;
+}
+
 .wrapper.spotlight:nth-child(2n - 1) .inner {
   -moz-flex-direction: row-reverse;
   -webkit-flex-direction: row-reverse;
@@ -4145,7 +4164,7 @@ body.is-preload #banner p {
   border-radius: 5px;
   z-index: 3;
   padding: 4.5rem 2.5rem 1.5rem 2.5rem;
-  background-color: rgba(27, 31, 34, 0.9);
+  background-color: rgba(27, 31, 34, 0.93);
   width: 45rem;
   max-width: 90%;
   color: black;
@@ -4292,13 +4311,13 @@ background-color: rgba(255, 255, 255, 0.075);
 }
 
 #footer .inner > * {
-  width: 100%;
+  width: 85%;
 }
 
-#footer .inner form {
+/* #footer .inner form {
   margin: 0 3em 0 0;
   width: calc(50% - 1.5em);
-}
+} */
 
 #footer .inner .contact {
   width: calc(50% - 1.5em);
