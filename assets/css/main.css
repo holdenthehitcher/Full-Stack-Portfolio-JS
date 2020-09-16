@@ -2222,7 +2222,7 @@ article.special {
 
 form {
   font-family: 'Poppins', sans-serif;
-  margin: 0 0 2em 0;
+  margin: 5em 0 3em 0;
 }
 
 form > :last-child {
@@ -4377,7 +4377,7 @@ background-color: rgba(255, 255, 255, 0.075);
 
   #footer .inner form {
     width: 100%;
-    margin: 0 0 4em 0;
+    margin: 7em 0 4em 0;
   }
 
   #footer .inner .contact {
@@ -4401,7 +4401,7 @@ background-color: rgba(255, 255, 255, 0.075);
   }
 
   #footer .inner form {
-    margin: 0 0 3em 0;
+    margin: 6em 0 4em 0;
   }
 
   #footer .inner .contact {
