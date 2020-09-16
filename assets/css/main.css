@@ -4231,7 +4231,7 @@ background-color: rgba(255, 255, 255, 0.075);
   padding: 10px 15px;
 }
 
-.modal-body p {
+ p {
   color: white;
   padding: 2rem 0;
   font-size: .7rem
@@ -4257,7 +4257,7 @@ background-color: rgba(255, 255, 255, 0.075);
 }
 
 @media screen and (min-width: 737px) {
-  .modal-body p {
+   p {
     padding: 2rem 2rem;
     font-size: 1.1rem
   }
@@ -4269,7 +4269,7 @@ background-color: rgba(255, 255, 255, 0.075);
     margin: 2rem 0;
   }
 
-  .modal-body p {
+   p {
     padding: 2rem 2rem;
     font-size: 1.1rem
   }
@@ -4282,7 +4282,7 @@ background-color: rgba(255, 255, 255, 0.075);
     margin: 1.5rem 0;
   }
 
-  .modal-body p {
+   p {
     padding: 2rem 0;
     font-size: .7rem
   }
