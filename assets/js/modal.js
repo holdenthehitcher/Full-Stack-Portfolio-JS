@@ -34,6 +34,10 @@ function openModal(modal) {
 
 function closeModal(modal) {
   if (modal == null) return;
+  $('.yt-iframe').each(function(){
+    this.contentWindow.postMessage('{"event":"command","func":"pauseVideo","args":""}', '*')
+  });
+  
   modal.classList.remove('active');
   overlay.classList.remove('active');
   document.body.style.overflow = '';
@@ -41,5 +45,4 @@ function closeModal(modal) {
   wrapper.style.position = '';
   wrapper.style.top = '';
   window.scrollTo(0, parseInt(scrollY || '0') * -1);
-  
 }
