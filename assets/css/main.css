@@ -8,8 +8,8 @@
 }
 
 ::-webkit-scrollbar {
-  width: 0px;  /* Remove scrollbar space */
-  background: transparent;  /* Optional: just make scrollbar invisible */
+  width: 0px; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
 }
 /*
 	Solid State by HTML5 UP
@@ -206,7 +206,6 @@ body {
   background-size: auto, cover;
   background-attachment: fixed, fixed;
   background-position: center, center;
-  
 }
 
 body.is-preload *,
@@ -4181,7 +4180,6 @@ body.is-preload #banner p {
   opacity: 1;
 }
 
-
 .modal-header {
   color: white;
   padding: 10px 15px;
@@ -4194,15 +4192,15 @@ body.is-preload #banner p {
   font-size: 1.25rem;
   font-weight: bold;
   font-size: 1.5rem;
-		line-height: 1.4;
-    letter-spacing: 0.5rem;
-    border-bottom: solid 1px #ffffff;
-			width: -moz-max-content;
-			width: -webkit-max-content;
-			width: -ms-max-content;
-			width: max-content;
-			padding-bottom: 0.5rem;
-			margin: 0 0 2rem 0;
+  line-height: 1.4;
+  letter-spacing: 0.5rem;
+  border-bottom: solid 1px #ffffff;
+  width: -moz-max-content;
+  width: -webkit-max-content;
+  width: -ms-max-content;
+  width: max-content;
+  padding-bottom: 0.5rem;
+  margin: 0 0 2rem 0;
 }
 
 .modal-header .close-button {
@@ -4213,19 +4211,17 @@ body.is-preload #banner p {
   position: absolute;
   top: 0rem;
   right: 1rem;
-  font-size: 2.30rem;
+  font-size: 2.3rem;
   font-weight: bold;
 }
 
-
 .modal-header .close-button:hover:before {
-background-color: rgba(255, 255, 255, 0.075);
+  background-color: rgba(255, 255, 255, 0.075);
 }
 
 .modal-header .close-button:active:before {
   background-color: rgba(255, 255, 255, 0.175);
-  }
-
+}
 
 .modal-body {
   padding: 10px 15px;
@@ -4234,16 +4230,14 @@ background-color: rgba(255, 255, 255, 0.075);
 .modal-body p {
   color: white;
   padding: 2rem 0;
-  font-size: .7rem
+  font-size: 0.7rem;
 }
-
 
 .modal-body iframe {
   align-self: center;
   width: 100%;
   height: 27rem;
 }
-
 
 .image.main {
   display: block;
@@ -4256,21 +4250,20 @@ background-color: rgba(255, 255, 255, 0.075);
 }
 
 @media screen and (min-width: 737px) {
-   p {
+  p {
     padding: 2rem 2rem;
-    font-size: 1.1rem
+    font-size: 1.1rem;
   }
 }
 
 @media screen and (max-width: 736px) {
-
   .image.main {
     margin: 2rem 0;
   }
 
   .modal-body p {
     padding: 2rem 2rem;
-    font-size: 1.1rem
+    font-size: 1.1rem;
   }
 
   .modal-body iframe {
@@ -4281,14 +4274,13 @@ background-color: rgba(255, 255, 255, 0.075);
 }
 
 @media screen and (max-width: 480px) {
-
   .image.main {
     margin: 1.5rem 0;
   }
 
   .modal-body p {
     padding: 2rem 0;
-    font-size: .7rem
+    font-size: 0.7rem;
   }
 
   .modal-body iframe {
@@ -4297,9 +4289,6 @@ background-color: rgba(255, 255, 255, 0.075);
     width: 100%;
     height: auto;
   }
-  
-
-
 }
 
 #overlay {
@@ -4370,7 +4359,6 @@ background-color: rgba(255, 255, 255, 0.075);
   margin-left: 1em;
   padding: 0;
   padding-left: 1em;
-  
 }
 
 #footer .inner .copyright li:first-child {
@@ -4384,7 +4372,12 @@ background-color: rgba(255, 255, 255, 0.075);
 }
 
 #footer .inner p {
-  font-size: .7rem
+  font-size: 1.2rem;
+}
+
+#footer .inner header {
+  text-align: center;
+  margin-right: 4em;
 }
 
 @media screen and (max-width: 1280px) {
@@ -4397,9 +4390,8 @@ background-color: rgba(255, 255, 255, 0.075);
     padding-top: 6.5em;
   }
 
-  
   #footer .inner p {
-    font-size: 1.1rem
+    font-size: 1.1rem;
   }
 
   #footer .inner h1 {
@@ -4437,9 +4429,8 @@ background-color: rgba(255, 255, 255, 0.075);
     margin: 4em 0 2em 0;
   }
 
-  
   #footer .inner p {
-    font-size: 1rem
+    font-size: 1rem;
   }
 }
 
@@ -4462,7 +4453,7 @@ background-color: rgba(255, 255, 255, 0.075);
   }
 
   #footer .inner p {
-    font-size: .95rem
+    font-size: 0.75rem;
   }
 }
 
@@ -4479,9 +4470,8 @@ background-color: rgba(255, 255, 255, 0.075);
   }
 
   #footer .inner p {
-    font-size: .7em
+    font-size: 0.7em;
   }
-  
 }
 
 @media screen and (max-width: 360px) {
@@ -4490,7 +4480,6 @@ background-color: rgba(255, 255, 255, 0.075);
   }
 
   #footer .inner p {
-    font-size: 1rem
+    font-size: 0.6rem;
   }
-  
 }
