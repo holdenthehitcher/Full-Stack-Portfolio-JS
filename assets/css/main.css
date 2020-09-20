@@ -3134,7 +3134,7 @@ button:disabled,
 
 .features article p {
   font-family: 'Poppins', sans-serif;
-  font-size: 1rem;
+  font-size: 1.1rem;
 }
 
 .features article:nth-child(2n) {
@@ -4230,7 +4230,7 @@ body.is-preload #banner p {
 .modal-body p {
   color: white;
   padding: 2rem 0;
-  font-size: 0.7rem;
+  font-size: 1rem;
 }
 
 .modal-body iframe {
@@ -4251,7 +4251,7 @@ body.is-preload #banner p {
 
 @media screen and (min-width: 737px) {
   p {
-    padding: 2rem 2rem;
+    padding: 0rem 1rem;
     font-size: 1.1rem;
   }
 }
