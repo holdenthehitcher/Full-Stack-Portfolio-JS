@@ -4239,6 +4239,11 @@ body.is-preload #banner p {
   height: 27rem;
 }
 
+.modal-body span {
+  display: block;
+  text-align: center;
+}
+
 .image.main {
   display: block;
   margin: 2.5rem 0;
